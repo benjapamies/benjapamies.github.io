@@ -33,3 +33,22 @@ public static long factorial( long num ) {
     }
 }
 {% endhighlight %}
+
+Las `palabras importantes` se pueden resaltar y se pueden crear [links][linkado].
+
+Listas:
+- Primer elemento de una lista sin numeración
+- Segundo elemento de una lista sin numeración
+  - Subelemento de una lista sin numeración
+
+1. Primer elemento de una lista numerada
+2. Segundo elemento de una lista numerada
+
+Tabla:
+
+Columna alineada a la izquierda | Columna centrada | Columna alineada a la derecha
+--- | :-: | --:
+HP 250 G5 Z3A41ES | Intel Core I3-5005U/8GB/256SSD/15.6" | 509 €
+Acer Aspire R5-571T-596H | Intel Core i5-6200U/8GB/256GB SSD/15.6" Táctil | 819 €
+
+[linkado]: https://github.com/benjapamies
