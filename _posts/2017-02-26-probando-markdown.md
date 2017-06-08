@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "Probando markdown"
 date:   2017-02-26 01:49:28 +0100
 categories: jekyll update
