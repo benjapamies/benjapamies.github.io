@@ -50,19 +50,19 @@ salida de la red neuronal.
 
 ![Operaciones](/images/2018-04-21/operaciones.png)
 
-Los valores de las matrices de pesos (1) y (2) irán actualizándose durante el entrenamiento con el objetivp de
+Los valores de las matrices de pesos (1) y (2) irán actualizándose durante el entrenamiento con el objetivo de
 minimizar el error obtenido, al igual que a los tensores resultantes de realizar estas operaciones se les aplica la
 función de activación correspondiente. Así, con todas estas operaciones se implementa un algoritmo que entrena como lo
 haría una red neuronal.
 
 Una de las ventajas de esta forma de implementar algoritmos de _machine learning_ es que puedes construir soluciones a
-problemas complejos en un único fichero de forma secuencial mediante operaciones sin necesidad de definir clases,
-métodos o una estructura compleja de proyecto. Limpio, fácil y rápido. Esto permite centrarse en el entrenamiento sin
-perder mucho tiempo en la implementación. Además, más allá de las neuronas artificiales, este sistema permite a
+problemas complejos en un único fichero de forma secuencial mediante operaciones sin necesidad de definir modelos,
+clases ni una una estructura compleja de proyecto. Limpio, fácil y rápido. Esto permite centrarse en el entrenamiento
+sin perder mucho tiempo en la implementación. Además, más allá de las neuronas artificiales, este sistema permite a
 TensorFlow implementar cualquier solución de aprendizaje automático que pueda ser modelizado en operaciones.
 
 Pero el principal potencial de TensorFlow es que estas operaciones son paralelizables, por lo que podríamos ejecutar
-nuestra solución en un clúster y aprovechar así las grandes capacidades de cómputo que tenemos en la actualidad e
-implementar _deep learning_.
+nuestra solución en un clúster y aprovechar así las grandes capacidades de cómputo de las que dispongamos e implementar
+_deep learning_.
 
 [tensorflow]: https://www.tensorflow.org/
